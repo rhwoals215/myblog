@@ -10,6 +10,23 @@
   </head>
 
   <body>
+    <div id="sidebar">
+      <div id="logo">
+        <%= image_tag("logo2.svg", :alt => "rss feed") %>
+      </div>
+      <ul>
+        <li class="category">Website</li>
+        <li><%= link_to "Blog", root_path %></li>
+        <li>About</li>
+      </ul>
+      <ul>
+        <li class="category">Social</li>
+        <li><a href="https://www.facebook.com/jaeminko">Facebook</a></li>
+        <li><a href="https://www.instagram.com/jaydwag2">Instagram</a></li>
+        <li><a href="https://github.com/rhwoals215">Github</a></li>
+      </ul>
+      <p class="sign_in">Admin Login</p>
+    </div>
     <%= yield %>
   </body>
 </html>
