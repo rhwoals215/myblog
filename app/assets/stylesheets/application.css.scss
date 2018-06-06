@@ -39,6 +39,7 @@ a {
 	#logo {
 		width: 40px;
     length: 40px;
+		height: 50px;
 		position: absolute;
 		right: 3em;
 		top: 3em;
@@ -163,12 +164,12 @@ a {
 			margin: .5em 0 2em 0;
 		}
 		#comments {
-			h2 {
+			h3 {
 				margin: 3em 0 1em 0;
 				border-bottom: 1px solid #d6dce0;
 				padding-bottom: 0.5em;
 			}
-			h3 {
+			h4 {
 				margin-top: 2em;
 			}
 			.comment {
